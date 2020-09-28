@@ -1,0 +1,84 @@
+html, body {
+	margin-left: 20%;
+	margin-right: 25%;
+}
+
+#topnav {
+	width: 500pt;
+	text-align: right;
+	position: fixed;
+	background-color: red;
+	display: contents;
+	margin-left: 0%;
+	margin-right: 50%;
+	margin-top: 40pt;
+	color: white;
+	font-family: 'David Libre', serif;
+	display: inline-block;
+}
+
+button {
+	align-items: center;
+	color: blue;
+	border-color: red;
+	background-color: white;
+	margin-left: 50%;
+    margin-top: 50pt;
+    bottom:0pt;
+   	font-family: 'David Libre', serif;
+
+}
+
+#body {
+	position: relative;
+	margin-left: 20%;
+	margin-bottom: 20%
+}
+
+#click {
+	margin-bottom: 250pt;
+  	margin-left: 50%;
+    margin-top: 0pt;
+    text-align: center;
+    color:red;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#scroll {
+    margin-left: 60%;
+    margin-top: 20%;
+    color: red;
+    font-style: oblique;
+    font-family: 'Shadows Into Light', serif;
+}
+
+p.mask {
+	color:white;
+	margin-top: 250pt;
+	font-family: 'Special Elite', cursive;
+}
+
+p.cloud {
+	color:white;
+	margin-top: 40%;
+	font-family: 'Special Elite', cursive;
+}
+
+p.air {
+	color:white;
+	margin-top: 40%;
+	font-family: 'Special Elite', cursive;
+}
+
+p.floating {
+	color:white;
+	margin-top: 40%;
+	font-family: 'Special Elite', cursive;
+}
+
+p.rape {
+	color:white;
+	margin-bottom: 250pt;
+	margin-top: 40%;
+	font-family: 'Special Elite', cursive;
+}

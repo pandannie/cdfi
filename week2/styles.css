@@ -1,0 +1,20 @@
+button {
+	color: green;
+	background-color: red;
+	padding: 16pt;
+}
+
+form {
+	color: orange;
+	background-color: white;
+}
+
+html, body {
+	margin:0;
+	top:0;
+	left:0;
+	font-family: 'Peddana', serif;
+	background-color: orange;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,27 @@
+html, body {
+	margin:0;
+	top:0
+	left:0;
+	font-family: 'Quicksand', sans-serif;
+	color: red;
+}
+
+#topnav {
+	text-align: center;
+}
+
+
+.post img { 	
+	width: 100%;
+	margin: auto; 
+}
+
+#sidenav {
+	width: 50%;
+	margin: auto; 
+}
+
+button {
+	color: red;
+	background-color: black;
+}
