@@ -15,6 +15,7 @@ html, body {
 	color: white;
 	font-family: 'David Libre', serif;
 	display: inline-block;
+	text-shadow: 0pt 3pt;
 }
 
 button {
@@ -26,6 +27,7 @@ button {
     margin-top: 50pt;
     bottom:0pt;
    	font-family: 'David Libre', serif;
+   	font-size: 25pt;
 
 }
 
@@ -42,6 +44,7 @@ button {
     text-align: center;
     color:red;
 	font-family: 'Shadows Into Light', cursive;
+	font-size: 20pt;
 }
 
 #scroll {
@@ -50,6 +53,7 @@ button {
     color: red;
     font-style: oblique;
     font-family: 'Shadows Into Light', serif;
+    font-size: 20pt;
 }
 
 p.mask {
@@ -62,6 +66,7 @@ p.cloud {
 	color:white;
 	margin-top: 40%;
 	font-family: 'Special Elite', cursive;
+	text-shadow:2px 2px 5px white;
 }
 
 p.air {
