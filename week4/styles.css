@@ -28,6 +28,7 @@ button {
     bottom:0pt;
    	font-family: 'David Libre', serif;
    	font-size: 25pt;
+   	background-color: 
 
 }
 
@@ -45,6 +46,8 @@ button {
     color:red;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 20pt;
+	direction: rtl;
+	unicode-bidi: bidi-override;
 }
 
 #scroll {
@@ -60,6 +63,7 @@ p.mask {
 	color:white;
 	margin-top: 250pt;
 	font-family: 'Special Elite', cursive;
+	line-height: 1.2;
 }
 
 p.cloud {
@@ -67,18 +71,23 @@ p.cloud {
 	margin-top: 40%;
 	font-family: 'Special Elite', cursive;
 	text-shadow:2px 2px 5px white;
+	line-height: 1.2;
 }
 
 p.air {
 	color:white;
 	margin-top: 40%;
 	font-family: 'Special Elite', cursive;
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	line-height: 1.2;
 }
 
 p.floating {
 	color:white;
 	margin-top: 40%;
 	font-family: 'Special Elite', cursive;
+	line-height: 1.2;
 }
 
 p.rape {
@@ -86,4 +95,5 @@ p.rape {
 	margin-bottom: 250pt;
 	margin-top: 40%;
 	font-family: 'Special Elite', cursive;
+	line-height: 1.2;
 }
