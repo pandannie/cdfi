@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mobileflexannie</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style type="text/css">
+	html, body {
+		height: 100%;
+		width: 100%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin: 0;
+	}
+	.flex {
+		width:98%;
+		height:100vh;
+		padding:0;
+		display:inline-flex;
+		flex-wrap: nowrap;
+		margin-top: 20vh;
+		margin-left: 0;
+	}
+
+	.box1 {
+		width: 30vw;
+		height: 30vw;
+		margin:10pt;
+		background: #FFD058;
+	}
+
+	.box2 {
+		width: 30vw;
+		height: 30vw;
+		margin:10pt;
+
+
+		background: #E47171;
+	}
+
+	.box3 {
+		width: 30vw;
+		height: 30vw;
+		margin:10pt;
+
+
+		background: #FFD058;
+	}
+
+	.topnav {
+		width: 100vw;
+		height: 8vh;
+		position: absolute; 
+		text-align: center;
+		top:0;
+		background: #C6D2FF;
+	}
+
+	@media screen and (max-width: 480px) { 
+		.flex {
+		  flex-wrap:wrap;
+		}
+
+
+		/* Rectangle 1 */
+		.box1 {
+		width: 90vw;
+		height: 90vw;
+		margin:10pt;
+		 
+		}
+
+		/* Rectangle 2 */
+
+		.box2 {
+		width: 90vw;
+		height: 90vw;
+		margin:10pt;
+		}
+
+		 /* Rectangle 3 */
+
+		.box3 {
+		width: 90vw;
+		height: 90vw;
+		margin:10pt;
+		
+		}
+
+
+		.topnav {
+		   width:100%;
+		   height:8vh;
+		}
+
+	}
+
+	@media screen and (max-width: 768px) { 
+		.flex {
+		  flex-wrap:wrap;
+		  width: 95%;
+		}
+
+		.topnav {
+			  width:100%;
+			  height:8vh;
+		}
+
+		.box1 {
+			width: 90vw;
+			height: 90vw;
+			margin:10pt;
+		}
+
+		.box2 {
+			width: 90vw;
+			height: 90vw;
+			margin:10pt;
+		}
+
+		.box3 {
+			width: 90vw;
+			height: 90vw;
+			margin:10pt;
+		}
+	}
+	
+
+</style>
+
+<body>
+	<div class="topnav"></div>
+	<div class="flex">
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+	</div>
+</body>
+</html>
