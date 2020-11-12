@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fun Fact</title>
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width">
+</head>
+<style type="text/css">
+	html, body{
+		background-color:#FF9FBC;
+		top:0;
+		left:0;
+		margin:0;
+		height:100%;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		font-family: 'Baloo Bhaina 2', cursive;
+	}
+	#alert {
+		opacity:0;
+		position:absolute;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		left:auto;
+		width:100%;
+		height:100vh;
+		bottom:-100vh;
+		transition:1s cubic-bezier(.59,1.49,.73,1.49);
+		cursor:pointer;
+	}
+	#alert h2 {
+		margin-top:10%;
+		color: #D2E2FF;
+	}
+	.aligner {
+		width:30%;
+		color:black;
+		text-align:center;
+		border-radius:1em;
+		background-color:#FF530A;
+		border:0.2em solid #FF530A;
+		box-shadow:0em 0em 5em #FF530A;
+		transition:0.5s ease-in-out;
+	}
+	.aligner:hover {
+		border:0.2em solid white;
+	}
+	em {
+		display:block;
+		font-size:2em;
+		line-height:1em;
+		animation: 2s flash linear infinite;
+	}
+	.main {
+		width:100%;
+	}
+	.button {
+		width:8em;
+		height:8em;
+		font-size:2em;
+		border-radius:50%;
+		background-color:#FFD748;
+		box-shadow: 0.2em 0.2em 4em #FFD748;
+		color:#1144C9;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		text-align: center;
+		border:0.05em solid #BF265E;
+		transition:0.25s ease-in-out;
+		animation:5s pulse ease-in-out infinite;
+		cursor:pointer;
+	}
+	.button:hover {
+		border:0.05em #FFD748;
+
+	}
+	@keyframes pulse {
+		0% {
+			transform:scale(1);
+		}
+		50%{
+			transform:scale(1.2);
+		}
+		100%{
+			transform:scale(1);
+		}
+	}
+	@keyframes flash {
+		0% {
+			color: #DBFFD2;
+		}
+		25% {
+			color: white;
+		}
+		50% {
+			color: #D2E2FF;
+		}
+		100% {
+			color: #FEFFD2;
+		}
+
+	}
+	@media screen and (max-width:767px){
+		.aligner {
+			width:80%;
+			height:80vh;
+		}
+	}
+</style>
+<body>
+
+<div class='main'>
+	<div class='button'>Feeling frustrated?</div>
+</div>
+
+
+<div id="alert">
+	<div class='aligner'>
+		<h2><em>everything</em> will be</h2>
+		<lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_cujuioql.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player>
+	</div>
+</div>
+
+</body>
+<script type="text/javascript">
+
+button = document.querySelector('.button')
+alert = document.querySelector('#alert')
+
+button.onclick=function() {
+	alert.style.opacity='1'
+	alert.style.bottom='0'
+}
+
+alert.onclick=function() {
+	alert.style.opacity='0'
+	alert.style.bottom='-100vh'
+}
+
+	
+
+</script>
+</html>
