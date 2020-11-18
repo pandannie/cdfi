@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Everything and Nothing</title>
+	<link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+
+</head>
+
+<style type="text/css">
+	body, html {
+		font-family: 'Zeyada', cursive;
+		font-weight: normal;
+		height: 100vh;
+		width: 100vw;
+	}
+
+
+
+
+
+h1 {
+	font-size: 250px;
+	line-height: 220px;
+	text-align: center;
+	padding-top: 10vh;
+	margin-top: 0vh;
+	margin-bottom: 0px;
+	animation:5s opening;
+	animation-fill-mode: forwards;
+
+	position: relative;
+}
+
+
+
+
+
+h2 {
+	font-size: 70px;
+}
+
+
+h2:hover {
+	color: white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+.tittle {
+	display: block;
+
+	animation: 5s tittle;
+		animation-fill-mode: forwards;
+
+	align-items: center;
+}
+
+#individual {
+	transform: rotate(-90deg);
+	float:left;
+
+	position: fixed;
+
+    top: 30vh;
+}
+
+
+#myself {
+	transform: rotate(90deg);
+	float:right;
+	left:90vw;
+	top:30vh;
+		position: fixed;
+
+
+}
+
+#actor {
+	left:50vw;
+	top:80vh;
+		position: fixed;
+
+}
+
+
+
+
+
+svg {
+	position: fixed;
+	align-items: center;
+	left: 40vw;
+	bottom: 200pt;
+	animation: 10s svg;
+	animation-fill-mode: forwards;
+}
+
+
+
+@keyframes opening {
+	0% {
+		transform:scale(1);
+		opacity:1;
+	}
+	10% {
+		transform:scale(1);
+	}
+	100% {
+		transform:scale(10);
+		opacity:0;
+	}
+}
+
+
+@keyframes tittle {
+	0% {
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+@keyframes svg {
+	0% {
+		transform:scale(1);
+	}
+	50% {
+		transform:scale(1);
+	}
+	100% {
+		transform:scale(1.6);
+	}
+}
+
+
+
+.individual1 {
+		position: static;
+
+	line-height: 50pt;
+	font-size: 30pt;
+	
+	height: 30vh;
+	width: 30vh;
+
+	top:20vh;
+	margin-left: 10vw;
+	margin-top: 15vh;
+}
+.myself1{
+		position: static;
+		float: right;
+
+	line-height: 50pt;
+	font-size: 30pt;
+
+	height: 30vh;
+	width: 30vh;
+
+	top:45vh;
+
+	margin-right: 10vw;
+}
+.actor1 {
+		position: static;
+
+	line-height: 50pt;
+	font-size: 30pt;
+
+	height: 30vh;
+	width: 50vh;
+
+	top:0;
+
+	margin-left: 10vw;
+
+}
+.shakespeare {
+	position: fixed;
+	top:45vh;
+	left:40vw;
+	font-size:50pt;
+}
+
+
+</style>
+
+
+
+<body>
+
+
+<div class="opening">
+<h1>everything<br>and<br>nothing</h1>
+</div>
+
+<div class="tittle" id="individual">
+	<h2>individual</h2>
+</div>
+
+<div class="tittle" id="myself">
+	<h2>myself</h2>
+</div>
+
+<div class="tittle" id="actor">
+	<h2>actor</h2>
+</div>
+
+
+<div class="actor1"> </div>
+<div class="individual1"> </div>
+<div class="myself1"> </div>
+
+<div class="shakespeare"> 
+
+</div>
+
+
+<div class="svg">
+	<svg width="406" height="335" viewBox="0 0 406 335" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M374.191 58.0396C352.22 30.8224 316.631 23.5166 283.346 15.8389C256.591 9.6673 224.445 8.57266 196.988 11.6858C167.443 15.0354 145.761 26.8782 124.929 46.7861C98.9641 71.5981 70.3273 94.6055 45.8599 120.738C32.2916 135.229 15.9438 152.251 12.0735 172.182C8.8439 188.814 10.1055 207.648 11.0921 224.431C12.4321 247.224 24.8581 268.643 39.6213 286.124C66.2637 317.673 111.766 323.197 151.775 324.373C175.015 325.056 198.774 325.349 222.012 324.373C237.742 323.712 251.795 319.079 266.663 314.861C273.961 312.791 281.861 311.207 288.393 307.359C299.351 300.903 307.158 292.183 315.45 282.976C326.984 270.17 339.817 257.828 349.657 243.723C358.231 231.433 365.042 216.728 370.266 202.862C376.612 186.016 379.82 168.284 383.584 150.814C385.235 143.149 386.705 135.601 388.701 127.972C390.371 121.588 394.223 114.295 394.379 107.743C394.499 102.68 395.875 94.5609 394.098 89.6566C392.393 84.95 387.533 80.6086 384.285 76.7285C379.125 70.5652 375.375 65.1257 371.668 58.0396" stroke="black" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</div>
+
+</body>
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+	let individual = document.querySelector ('#individual')
+		let individual1=document.querySelector ('.individual1')
+	let myself = document.querySelector ('#myself')
+		let myself1=document.querySelector ('.myself1')
+	let actor = document.querySelector ('#actor')
+		let actor1 = document.querySelector ('.actor1')
+	let shakespeare = document.querySelector ('.shakespeare')
+	let svg = document.querySelector ('#svg')
+
+
+			console.log(individual)
+			console.log(actor)
+			console.log(myself)
+			console.log(shakespeare)
+			console.log(actor1)
+			console.log(individual1)
+			console.log(myself1)
+
+
+	individual.onclick=function(){
+		individual1.innerHTML= 'that an individual had best not differ from his species'
+		shakespeare.innerHTML='__a e  e a e'
+	}
+
+
+	actor.onclick=function(){
+		actor1.innerHTML= 'that of the actor, who plays at being someone else on a stage before an audience which plays at taking him for that other person'
+		shakespeare.innerHTML='Shakespeare'
+	}
+
+	myself.onclick=function(){
+		myself1.innerHTML= 'I, who in vain have been so many men, want to be one man – myself'
+		shakespeare.innerHTML='_ha es ea e'
+	}
+
+
+
+
+
+</script>
+</html>
