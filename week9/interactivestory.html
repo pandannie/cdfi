@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Everything and Nothing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 
 </head>
@@ -183,6 +185,34 @@ svg {
 	font-size:50pt;
 }
 
+@media screen and (max-width: 480px) {
+	#individual {
+	transform: rotate(-90deg);
+	float:left;
+
+	position: fixed;
+
+    top: 30vh;
+	}
+
+
+	#myself {
+		transform: rotate(90deg);
+		float:right;
+		left:90vw;
+		top:30vh;
+			position: fixed;
+
+
+	}
+
+	#actor {
+		left:50vw;
+		top:80vh;
+			position: fixed;
+
+	}
+}
 
 </style>
 
